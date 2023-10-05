@@ -3,10 +3,17 @@
 
 #include "cv03.h"
 
-using namespace std;
-
 int main()
 {
-	cout << "Hello CMake." << endl;
+	double time = 0;
+	double distance = 0;
+
+	printf("Zadejte rozdil hromu a blesku (v sekundach):\n");
+	scanf("%d", &time);
+
+	distance = (time * 0.340);
+
+	printf("Vzdalenost bourky od vas je %d km.", distance);
+
 	return 0;
 }
