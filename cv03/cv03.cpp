@@ -1,7 +1,4 @@
-﻿// cv03.cpp : Defines the entry point for the application.
-//
-
-#include "cv03.h"
+﻿#include "cv03.h"
 
 int main()
 {
@@ -13,7 +10,7 @@ int main()
 
 	distance = (time * 0.340);
 
-	printf("Vzdalenost bourky od vas je %d km.", distance);
+	printf("Vzdalenost bourky od vas je %lf km.", distance);
 
 	return 0;
 }
